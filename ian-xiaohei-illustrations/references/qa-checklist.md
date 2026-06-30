@@ -1,46 +1,46 @@
 # QA Checklist
 
-## 必过项
+## Must-pass items
 
-- 是 16:9 横版。
-- 背景是干净白底。
-- 有小黑。
-- 小黑承担核心动作，不只是装饰。
-- 没有复刻旧案例构图，而是为当前文章生成了新隐喻。
-- 画面怪诞、有创意、有意思。
-- 简洁清爽，主体不超过画面约 60%。
-- 一张图只讲一个核心结构。
-- 中文标注少、短、能读。
-- 橙色只用于主路径或箭头。
-- 红色只用于重点、问题、提醒或结果。
-- 蓝色只用于补充说明、反馈或系统状态。
+- It's 16:9 landscape.
+- The background is a clean white base.
+- Xiaohei is present.
+- Xiaohei carries the core action, not just decoration.
+- It doesn't replicate the composition of an old example, but generates a new metaphor for the current article.
+- The scene is bizarre, creative, and interesting.
+- Clean and uncluttered, with the subject taking up no more than about 60% of the frame.
+- One image conveys only one core structure.
+- English annotations are few, short, and legible.
+- Orange is used only for the main path or arrows.
+- Red is used only for key points, problems, warnings, or results.
+- Blue is used only for supplementary notes, feedback, or system status.
 
-## 失败信号
+## Failure signals
 
-出现以下情况，重生成或局部编辑：
+If any of the following occur, regenerate or do a partial edit:
 
-- 左上角有“常见坑 / Workflow / 系统架构图 / 路线图”等标题。
-- 小黑像吉祥物、表情包或可爱卡通。
-- 画面像 PPT、课程课件、正式流程图。
-- 元素太多、箭头太多、节点太多。
-- 文字变成大段解释。
-- 背景有纸纹、阴影、渐变、米色、噪点。
-- 真实 UI 截图或科技感界面。
-- 中文错字严重或标注不可读。
-- 画面太死板，没有荒诞隐喻。
-- 和 `assets/examples/` 里的旧案例构图过于相似。
+- A title like "Common pitfalls / Workflow / System architecture diagram / Roadmap" appears in the top-left corner.
+- Xiaohei looks like a mascot, an emoji/sticker, or a cute cartoon character.
+- The scene looks like a slide deck, course courseware, or a formal flowchart.
+- Too many elements, too many arrows, too many nodes.
+- The text turns into long explanatory passages.
+- The background has paper texture, shadows, gradients, beige tones, or noise.
+- A real UI screenshot or tech-style interface appears.
+- The text contains serious typos or the annotations are illegible.
+- The scene feels too rigid, lacking an absurd metaphor.
+- It's too similar in composition to an old example in `assets/examples/`.
 
-## 迭代方法
+## Iteration methods
 
-- 太普通：让小黑成为动作主体，加入一个奇怪但成立的隐喻。
-- 太复杂：删节点，只保留一个动作和 3-5 个短标注。
-- 太可爱：强调 deadpan、blank serious expression、not cute、not mascot。
-- 太 PPT：去掉标题、边框、整齐网格和过多箭头，改成手绘场景。
-- 太像旧案例：保留核心意思，换掉主物件和小黑动作。
-- 文字错：优先局部编辑；错得多就重生成并减少标注数量。
+- Too plain: make Xiaohei the subject of the action, and add a metaphor that's strange but coherent.
+- Too complex: cut nodes, keeping only one action and 3-5 short annotations.
+- Too cute: emphasize deadpan, blank serious expression, not cute, not mascot.
+- Too PPT-like: remove titles, borders, neat grids, and excess arrows, and turn it into a hand-drawn scene instead.
+- Too similar to an old example: keep the core meaning, but swap out the main object and Xiaohei's action.
+- Text errors: prefer a partial edit first; if there are too many errors, regenerate and reduce the number of annotations.
 
-## 交付判断
+## Delivery judgment
 
-高质量图应该让读者先觉得“有点怪”，然后 1 秒内看懂结构。
+A high-quality image should make the reader think "that's a bit odd" at first, then understand the structure within one second.
 
-如果第一眼像教程页，而不是白纸上的怪诞产品草图，就不合格。
+If it looks like a tutorial page at first glance, rather than a bizarre product sketch on a blank sheet of paper, it doesn't pass.
